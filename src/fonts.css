@@ -1,0 +1,9 @@
+/* Original WOFF2 files from the designer-supplied Kycron archive. */
+@font-face{font-family:Kycron;font-style:normal;font-weight:400;src:url('./fonts/Kycron-Regular.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Kycron;font-style:normal;font-weight:200;src:url('./fonts/Kycron-ExtraLight.woff2') format('woff2');font-display:swap}
+:root{--display:Kycron,Inter,Arial,sans-serif;--body:Inter,Arial,sans-serif}
+.hero h1,.hero .eyebrow{font-weight:200}
+.hero-portrait{mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent),linear-gradient(180deg,transparent,#000 3%,#000 91%,transparent);mask-composite:intersect}
+.footer-right{display:flex;align-items:flex-end;flex-direction:column;gap:14px}
+.social-marks{width:71px;height:29px}
+@media(max-width:600px){.footer-right{width:100%;flex-direction:row-reverse;align-items:center;justify-content:space-between}.social-marks{width:61px;height:25px}.footer-right .copyright{flex-basis:auto}}

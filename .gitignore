@@ -1,0 +1,7 @@
+node_modules/
+dist/
+standalone/
+PREVIEW.html
+.env
+.env.local
+test-results/
